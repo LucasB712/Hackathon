@@ -1,7 +1,11 @@
 # Hackathon
 Hackathon 2024
 
-Projeto com colaboração de: @petrussampaio, @lanaramiro e @lalabohm
+Software de aprendizado de matemática básica para crianças da 3°série do Fundamental, com Back-end e Banco de dados em Python e Interface Web lúdica e divertida.
+
+Projeto feito com colaboração de @petrussampaio, @lanaramiro e @lalabohm em experiência Hackathon 24h proporcionada pela faculdade IDP.
+
+Solução Baseada em Transformação digital na Educação, visando maior engajamento dos alunos
 ## Requisitos
 
 Para executar este projeto, você precisará das seguintes dependências instaladas:
