@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>TucoMáticos - Subtração</title>
+    <link rel="stylesheet" href="/css/styleOperacoes.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <header>
+        <div id="header-container">
+            <img src="/imagem/tucanoEstudioso.png" alt="Logo Tucano" id="logo-tucano">
+            <h1>TucoMáticos - Subtração</h1>
+            <div id="balance-cart">
+                <p id="balance">Seu saldo: 0</p>
+                <a href="shop.html" id="shop-link">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="game-section">
+            <h2>Subtração</h2>
+            <div id="question-container">
+                <div id="question-area">
+                    <!-- Exibir a operação de subtração -->
+                    <p id="question">'{{ num1 }} - {{ num2 }}'</p>
+                </div>
+                <input type="number" id="answer" placeholder="Digite sua resposta">
+                <button onclick="checkAnswer()">Verificar Resposta</button>
+            </div>
+            <!-- Exibir a mensagem de resultado -->
+            <p id="result-message"></p>
+        </section>
+        <section>
+            <button onclick="window.location.href='/voltar_tarefas'">Voltar às Tarefas</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Obrigado por jogar TucoMáticos!</p>
+    </footer>
+
+    <script>
+        // Declarando variáveis JavaScript para usar com Flask
+        var num1 = '{{ num1 }}';
+        var num2 = '{{ num2 }}';
+
+        function checkAnswer() {
+            var answer = parseInt(document.getElementById('answer').value);
+            // Calcular a resposta correta
+            var correctAnswer = num1 - num2;
+            // Verificar se a resposta do usuário está correta
+            if (answer === correctAnswer) {
+                document.getElementById('result-message').innerHTML = "Resposta correta!";
+            } else {
+                document.getElementById('result-message').innerHTML = "Resposta incorreta. Tente novamente.";
+            }
+        }
+    </script>
+</body>
+</html>
