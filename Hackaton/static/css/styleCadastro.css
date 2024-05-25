@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #48d1cc;
+    padding: 20px;
+    position: relative;
+}
+
+#header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo-tucano {
+    width: 100px;
+    height: auto;
+}
+
+h1 {
+    flex-grow: 1;
+    margin: 0;
+    color: white;
+}
+
+main {
+    margin-top: 20px;
+}
+
+#login-section, #register-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#login-section input, #register-section input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#login-section button, #register-section button {
+    background-color: #48d1cc;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+footer {
+    background-color: #48d1cc;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}

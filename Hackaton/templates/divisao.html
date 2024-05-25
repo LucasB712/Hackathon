@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>TucoMáticos - Divisão</title>
+    <link rel="stylesheet" href="/static/styleOperacoes.css">
+    <script defer src="/static/scriptDivisao.js"></script>
+</head>
+<body>
+    <header>
+        <div id="header-container">
+            <img src="/imagem/tucanoEstudioso.png" alt="Logo Tucano" id="logo-tucano">
+            <h1>TucoMáticos - Divisão</h1>
+            <div id="balance-cart">
+                <p id="balance">Seu saldo: 0</p>
+                <a href="shop.html" id="shop-link">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="game-section">
+            <h2>Divisão</h2>
+            <div id="question-container">
+                <div id="question-area">
+                    <p id="question"></p>
+                </div>
+                <input type="number" id="answer" placeholder="Digite sua resposta">
+                <button onclick="checkAnswer()">Verificar Resposta</button>
+            </div>
+            <p id="result-message"></p>
+        </section>
+        <section>
+            <button onclick="window.location.href='tarefas.html'">Voltar às Tarefas</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Obrigado por jogar TucoMáticos!</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #48d1cc;
+    padding: 20px;
+    position: relative;
+}
+
+#logo-tucano {
+    width: 150px;
+    height: auto;
+}
+
+h1 {
+    color: rgb(242, 235, 235);
+    margin: 0;
+}
+
+main {
+    margin-top: 20px;
+}
+
+#shop-section {
+    margin: 20px;
+}
+
+.house-item {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.house-item img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+button {
+    background-color: #48d1cc;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+#balance {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#shop-message {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #48d1cc;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+
+
+

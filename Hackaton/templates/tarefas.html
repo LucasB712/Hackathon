@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>TucoMáticos - Jogo de Matemática</title>
+    <link rel="stylesheet" href="/css/styleTarefa.css">
+    <script defer src="scriptTarefas.js"></script>
+    <!-- Link para a biblioteca de ícones Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div id="header-container">
+            <img src="/imagem/tucanoEstudioso.png" alt="Logo Tucano" id="logo-tucano">
+            <h1>Bem-vindo ao TucoMáticos!</h1>
+            <div id="balance-cart">
+                <p id="balance">Saldo: 0</p>
+                <a href="/shop" id="shop-link">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="game-section">
+            <h2>Escolha a operação</h2>
+            <div id="operations">
+                <div class="operation-item">
+                    <img src="/imagem/tucanoSoma.png" alt="Soma" onclick="generateQuestion('+')">
+                    <p>Adição (+)</p>
+                </div>
+                <div class="operation-item">
+
+                    <a href="/sub">
+                        <img src="/imagem/tucanoSubtracao.png" alt="Descrição da imagem">
+                    </a>
+
+                    <p>Subtração (-)</p>
+                </div>
+                <div class="operation-item">
+                    <img src="/imagem/tucanoMultiplicacao.png" alt="Multiplicação" onclick="generateQuestion('*')">
+                    <p>Multiplicação (*)</p>
+                </div>
+                <div class="operation-item">
+                    <img src="/imagem/tucanoDivisao.png" alt="Divisão" onclick="generateQuestion('/')">
+                    <p>Divisão (/)</p>
+                </div>
+            </div>
+            <div id="question-container">
+                <p id="question"></p>
+            </div>
+            <p id="result-message"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Obrigado por jogar TucoMáticos!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+

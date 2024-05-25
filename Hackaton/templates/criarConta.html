@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>TucoMáticos - Criar Conta</title>
+    <link rel="stylesheet" href="/css/styleLogin.css">
+    <!-- Link para a biblioteca de ícones Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script defer src="scriptCriarConta.js"></script>
+</head>
+<body>
+    <header>
+        <div id="header-container">
+            <img src="/imagem/tucano.png" alt="Logo Tucano" id="logo-tucano">
+            <h1>Bem-vindo ao TucoMáticos!</h1>
+        </div>
+    </header>
+
+    <main>
+        <section id="register-section">
+            <h2>Criar Conta</h2>
+            <input type="text" id="new-username" placeholder="Novo Usuário">
+            <input type="password" id="new-password" placeholder="Nova Senha">
+            <button onclick="criarConta()">Criar Conta</button>
+            <p id="register-message"></p>
+            <p>Já tem uma conta? <a href="/">Login</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Obrigado por jogar TucoMáticos!</p>
+    </footer>
+</body>
+</html>
