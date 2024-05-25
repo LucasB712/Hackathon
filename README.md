@@ -16,5 +16,6 @@ pip install -r requirements.txt
 
 Como executar o código:
 
-Escreva no terminal 'python Back.py'
+Escreva no terminal 'python Back.py' e o codigo abrirá um servidor local aonde o projeto estará rodando.
+
 
