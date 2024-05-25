@@ -1,7 +1,7 @@
 # Hackathon
 Hackathon 2024
 
-Software de aprendizado de matemática básica para crianças da 3°série do Fundamental, com Back-end e Banco de dados em Python e Interface Web lúdica e divertida.
+Software de aprendizado de matemática básica para crianças da 3°série do Fundamental, com Back-end em Python, Banco de dados em SQLite3 e Interface Web lúdica e divertida.
 
 Projeto feito com colaboração de @petrussampaio, @lanaramiro e @lalabohm em experiência Hackathon 24h proporcionada pela faculdade IDP.
 
